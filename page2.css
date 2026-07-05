@@ -1,0 +1,239 @@
+.banner_img img{
+    margin-top:50px;
+    height:380px;
+    width:1350px;
+}
+
+#title{
+    margin-top:50px;
+    font-size:25px;
+}
+
+.rectangle_box{
+    width: 100%;
+    height:200px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items: center;
+}
+
+.rectangle_box_1{
+    height:70px;
+    width:325px;
+    background-color:white;
+    border-radius:15px;
+    margin-left:20px;
+    cursor: pointer;
+
+    display:grid;
+    align-items:center;
+    justify-content:center;
+}
+
+.rectangle_box_2{
+    height:70px;
+    width:325px;
+    background-color:#FFA608;
+    border-radius:15px;
+    margin-left:20px;
+    cursor: pointer;
+
+    display:grid;
+    align-items:center;
+    justify-content:center;
+}
+
+.rectangle_box_3{
+    height:70px;
+    width:325px;
+    background-color:white;
+    border-radius:15px;
+    margin-left:20px;
+    cursor: pointer;
+
+    display:grid;
+    align-items:center;
+    justify-content:center;
+}
+
+/* .rectangle_box_4{
+    height:70px;
+    width:320px;
+    background-color:#FFA608;
+    border-radius:15px;
+} */
+
+/* ********************* SMALL SQUARE BOX ********************** */
+
+.sml_square_box_div{
+    height: 50vh;
+    width: 100%;
+
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    justify-content:center;
+    align-items: center;
+}
+
+.sml_square_box_1{
+    height:250px;
+    width:270px;
+    background-color:brown;
+    border-radius:20px;
+
+    display:grid;
+    align-items:center;
+    justify-content:center;
+}
+
+.sml_square_box_1 img{
+    position: relative;
+    left:40px;
+}
+
+.sml_square_box_3 img{
+    position: relative;
+    left:30px;
+
+    border-radius:50%;
+}
+
+.sml_square_box_4 img{
+    border-radius:50%;
+}
+
+.sml_square_box_2{
+    height:250px;
+    width:270px;
+    background-color:brown;
+    border-radius:20px;
+
+    display:grid;
+    align-items:center;
+    justify-content:center;
+}
+
+.sml_square_box_3{
+    height:250px;
+    width:270px;
+    background-color:brown;
+    border-radius:20px;
+
+    display:grid;
+    align-items:center;
+    justify-content:center;
+}
+
+.sml_square_box_4{
+    height:250px;
+    width:270px;
+    background-color:brown;
+    border-radius:20px;
+
+    display:grid;
+    align-items:center;
+    justify-content:center;
+
+}
+
+/* ********************* BIG SQUARE BOX ********************** */
+
+.square_box_div{
+    width: 110%;
+    height:500vh;
+    margin-top:70px;
+    /* margin-left:30px;     */
+    /* background-color:yellow; */
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.square_box_1{
+    width: 541px;
+    height: 750px;
+    background-color:#A10E0F;
+    margin-top:50px;
+    border-radius:40px;
+    word-spacing:6px;
+}
+
+#rate{
+    display: flex;
+    justify-content: space-between;
+    padding:50px;
+}
+
+#rate button{
+    padding:10px 40px 10px 40px;
+    background-color: #FFA608;
+    border-radius:10px;
+    border:2px solid #FFA608;
+}
+
+#cb_name{
+    margin-left:80px;
+    margin-top:20px;
+}
+
+#cb_name h3{
+    margin-top:20px;
+    color:#D8E4E9;
+}
+
+.square_box_2{
+    width: 540px;
+    height: 750px;
+    background-color:#A10E0F;
+    margin-top:50px;
+    border-radius:40px;
+}
+
+.square_box_3{
+    width: 540px;
+    height: 750px;
+    background-color:#A10E0F;
+    margin-top:50px;
+    border-radius:40px;
+}
+
+.square_box_4{
+    width: 540px;
+    height: 750px;
+    background-color:#A10E0F;
+    margin-top:50px;
+    border-radius:40px;
+}
+
+.square_box_5{
+    width: 540px;
+    height: 750px;
+    background-color:#A10E0F;
+    margin-top:50px;
+    border-radius:40px;
+}
+
+.square_box_6{
+    width: 540px;
+    height: 750px;
+    background-color:#A10E0F;
+    margin-top:50px;
+    border-radius:40px;
+}
+
+.square_box_7{
+    width: 540px;
+    height: 750px;
+    background-color:#A10E0F;
+    margin-top:50px;
+    border-radius:40px;
+}
+
+.square_box_8{
+    width: 540px;
+    height: 750px;
+    background-color:#A10E0F;
+    margin-top:50px;
+    border-radius:40px;
+}
+

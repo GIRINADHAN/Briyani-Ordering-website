@@ -1,0 +1,242 @@
+.table_booking_div{
+    margin-top:80px;
+    width: 100%;
+    height:150vh;
+    background-color:aliceblue;
+    border-radius:30px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.table_content_1{
+    height: 150vh;
+    width: 100%;
+    /* background-color:yellowgreen; */
+}
+
+.table_content_2{
+    height: 150vh;
+    width: 100%;
+    /* background-color:blue; */
+}
+
+.colour_know_div{
+    height: 100px;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colour_know_1{
+    height:30px;
+    width:30px;
+    background-color: #9BEEB7;
+    border-radius:5px;
+    position: relative;
+    left:-10px;
+    border:1px solid black;
+}
+
+.colour_know_2{
+    height:30px;
+    width:30px;
+    background-color: #EF6661;
+    border-radius:5px;
+    border:1px solid black;
+    margin-right:150px;
+    position: relative;
+    left:140px;
+}
+
+.colour_know_div h1{
+    color:black;
+}
+
+.after_selecting_table_div{
+    height:100vh;
+    width:90%;
+    background-color:#D9D9D9;
+    border-radius:20px;
+    margin-top:20px;
+    margin-left:40px;
+}
+
+.selected_table{
+    height: 220px;
+    width: 90%;
+    background-color:aliceblue;
+    border-radius:20px;
+    position: relative;
+    top:30px;
+    left:30px;
+
+    padding:20px;
+    line-height:29px;
+
+    transition-duration:5s;
+}
+
+.selected_table h4,.selected_table h2,.selected_table p{
+    color:black;
+}
+
+.table_logo h1{
+    color: black;
+}
+.table_logo{
+    position: relative;
+    left:220px;
+    top:-150px;
+}
+
+.selected_table button{
+    padding:10px 25px 10px 25px;
+    background-color:#FFA608;
+    border-radius:50px;
+    position: relative;
+    top:-100px;
+    border:2px solid #FFA608;
+}
+
+.selected_table button:hover{
+    cursor: pointer;
+    padding:10px 26px 10px 26px;
+}
+
+.table_div{
+    height: 100vh;
+    width: 100%;
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.table{
+    width: 100px;
+    height: 90px;
+    background-color: #9BEEB7;
+    border-radius:5px;
+    margin-top:100px;
+    margin-left:80px;
+    border:1px solid black;
+}
+
+.table_3,.table_3 .chair_1,.table_3 .chair_2,.table_3 .chair_3,.table_6,.table_6 .chair_1,.table_6 .chair_2,.table_6 .chair_3,.table_6 .chair_4{
+    background-color: #EF6661;
+}
+
+.table h3{
+    color:black;
+    position: relative;
+    left:18px;
+    top:-30px;
+}
+
+.table_3 h3,.table_4 h3{
+    top:px;
+}
+
+.table_5 h3,.table_6 h3{
+    top:-70px;
+}
+
+.chair_1{
+    height:20px;
+    width:23px;
+    background-color: #9BEEB7;
+    border-radius:1px;
+    position: relative;
+    top:-21px;
+    left:37px;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+.chair_2{
+    height:20px;
+    width:23px;
+    background-color: #9BEEB7;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-radius:1px;
+    position: relative;
+    top:69px;
+    left:38px;
+}
+
+.chair_3{
+    height:20px;
+    width:23px;
+    background-color: #9BEEB7;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    border-right:1px solid black;
+    border-radius:1px;
+    position: relative;
+    top:-10px;
+    left:99px;
+}
+
+.chair_4{
+    height:20px;
+    width:23px;
+    background-color: #9BEEB7;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-radius:1px;
+    position: relative;
+    top:-30px;
+    left:-24px;
+}
+
+.chair_1,.chair_2,.chair_3,.chair_4{
+    cursor: pointer;
+}
+
+.table_content_2 button{
+    padding:15px 80px 15px 80px;
+    background-color: #FFA608;
+    margin-top:50px;
+    margin-left:160px;
+    border-radius:10px;
+    border:2px solid #FFA608;
+    font-size:20px;
+}
+
+.table_content_2 button:hover{
+    cursor: pointer;
+    padding:16px 81px 16px 81px;
+}
+
+.fa-user{
+    position: relative;
+}
+#user1{
+    top:-100px;
+    left:35px;
+}
+#user2{
+    top:-140px;
+    left:35px;
+}
+#user3{
+    top:-130px;
+    left:35px;
+}
+
+#rs{
+    float: left;
+}
+
+.after_selecting_table_div h3{
+    color:black;
+    text-align: center;
+    position: relative;
+    top:20px;
+}
